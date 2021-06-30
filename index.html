@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.comp.css">
+    <link rel="stylesheet" href="https:fonts.googleapis.com/css?family=Open+Sans:300,400,600">
+    <title>Fibonacci</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="img/logo.png" alt="Math logo" class="logo">
+            <div class="name">
+                <span class="name__text">
+                    Fibonacci
+                </span>
+            </div>
+            <nav class="user-nav">
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon-linkedin">
+                        <use xlink:href='img/sprite.svg#icon-linkedin2'></use>
+                    </svg>
+                </div>
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon-github">
+                        <use xlink:href='img/sprite.svg#icon-github'></use>
+                    </svg>
+                </div>
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href='img/sprite.svg#icon-quill'></use>
+                    </svg>
+                </div>
+            </nav>
+        </header>
+        <secton class="canvas-section">
+            <div class="canvas-section__container">
+                <canvas id='canvas'  ></canvas>
+            </div>
+        </secton>
+        <div class="input-container">
+            <div class="input">
+                <div class="input__container">
+                    <span class="input__text">Enter Numerator</span>
+                    <input id="numerator" type="number" value=7 class="input__numerator" min="1" max="10">
+                </div>
+                <div class="input__container">
+                    <span class="input__text">Enter Denomenator</span>
+                    <input id="denomenator" type="number" value=2 class="input__denomenator" min="1" max="10">
+                </div>
+                <button class="rose" onclick="initialize()">Rose</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

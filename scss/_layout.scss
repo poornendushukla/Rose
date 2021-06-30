@@ -1,0 +1,54 @@
+.logo{
+    height: 2.25rem;
+    margin-left: 1.2rem;
+}
+
+.user-nav{
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    & > * {
+        padding: 0 2rem;
+        cursor: pointer;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    &__icon{
+        height: 2.25rem;
+        width: 2.25rem;
+        fill: #777
+    }
+    &__icon-linkedin {
+        height: 2.25rem;
+        width: 2.25rem;
+        fill: #0077B5
+    }
+    &__icon-github {
+        height: 2.25rem;
+        width: 2.25rem;
+        fill: #333333
+    }
+}
+
+.name{
+    display: inline-flex;
+    &__text{
+        font-size: 2.5rem;
+        font-family: 'Open Sans', sans-serif;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+}
+canvas{
+    display: block;
+    align-self: center;
+    position: absolute;
+    border-radius: 50%   ;
+    left: 0;
+    top: 0;
+    width: 75%;
+    // height: 75%;
+    transform: translate(16%,10%);   
+    background-color: rgb(68, 45, 56);     
+}
