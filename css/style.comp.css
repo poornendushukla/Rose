@@ -102,7 +102,8 @@ canvas {
   .input__container {
     margin: 1rem; }
   .input__text {
-    margin-right: 5px; }
+    margin-right: 5px;
+    color: rgba(0, 0, 0, 0.8); }
   .input__numerator, .input__denomenator {
     font: inherit;
     border-radius: .40rem;
@@ -122,5 +123,17 @@ canvas {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 4px 2px 10px 2px;
   cursor: pointer; }
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 14rem;
+  height: 7rem;
+  border-top: 3px solid #f4f2f2;
+  font-family: 'OpenSans',sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.8); }
